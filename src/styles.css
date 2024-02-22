@@ -1,0 +1,65 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.comment-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.comment-container img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  min-width: 200px;
+  max-width: 300px;
+}
+.comment .comment-date {
+  font-size: 12px;
+  color: #999;
+  margin-top: 5px;
+}
+.comment .comment-content {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #a54444;
+}
+.reply-button {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f2f2f2;
+  width: 100px;
+}
+.action-button-container button {
+  margin: 5px;
+}
+.nested {
+  margin-left: 40px;
+}
